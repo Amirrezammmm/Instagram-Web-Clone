@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Profile Clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Instagram</h2>
+    <a href="#"><i class="fas fa-home"></i> Home</a>
+    <a href="#"><i class="fas fa-search"></i> Search</a>
+    <a href="#"><i class="far fa-compass"></i> Explore</a>
+    <a href="#"><i class="fas fa-clapperboard"></i> Reels</a>
+    <a href="#"><i class="fas fa-message"></i> Messages</a>
+    <a href="#"><i class="fas fa-heart"></i> Notifications</a>
+    <a href="#"><i class="fas fa-plus"></i> Create</a>
+    <a href="#"><i class="fas fa-user"></i> Profile</a>
+  </div>
+
+  <div class="main">
+    <div class="profile-header">
+      <div class="profile-avatar" onclick="showStory()">
+        <img src="https://i.pravatar.cc/150?img=12" alt="avatar" />
+      </div>
+      <div class="profile-info">
+        <h1>itsamirreza_</h1>
+        <div class="counts">
+          <div><strong>9</strong> posts</div>
+          <div><strong>216</strong> followers</div>
+          <div><strong>2,350</strong> following</div>
+        </div>
+        <div class="bio">
+          <strong>Amirreza Goodarzi</strong><br />
+          <em>And I Know Where To Look</em><br />
+          Let the darkness lead us into the light 🔥<br />
+          سلیمان ظهور فلكی
+        </div>
+      </div>
+    </div>
+
+    <div class="highlights">
+      <div class="highlight">
+        <img src="https://picsum.photos/seed/1/100" alt="highlight1" />
+        <div>📷 🌙</div>
+      </div>
+      <div class="highlight">
+        <img src="https://picsum.photos/seed/2/100" alt="highlight2" />
+        <div>ME</div>
+      </div>
+      <div class="highlight">
+        <img src="https://picsum.photos/seed/3/100" alt="highlight3" />
+        <div>car</div>
+      </div>
+      <div class="highlight">
+        <img src="https://picsum.photos/seed/4/100" alt="highlight4" />
+        <div>New</div>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <div>POSTS</div>
+      <div>SAVED</div>
+      <div>TAGGED</div>
+    </div>
+
+    <div class="posts">
+      <img src="https://picsum.photos/id/1011/400" />
+      <img src="https://picsum.photos/id/1022/400" />
+      <img src="https://picsum.photos/id/1033/400" />
+      <img src="https://picsum.photos/id/1044/400" />
+      <img src="https://picsum.photos/id/1055/400" />
+      <img src="https://picsum.photos/id/1066/400" />
+    </div>
+  </div>
+
+  <div class="story-overlay" id="story">
+    <div class="progress-bar"><div class="progress" id="progress"></div></div>
+    <img src="https://picsum.photos/600/800?random=9" alt="story" />
+  </div>
+
+</body>
+<script src="assets/js/main.js"></script>
+</html>
